@@ -1,0 +1,89 @@
+.container-rooms {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.container-rooms ul, .container-room ul, .room-cart ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.container-room {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 1rem;
+    margin-bottom: 3rem;
+    max-width: 180rem;
+}
+
+.room-image {
+    margin-right: 1rem;
+}
+.room-image img {
+    max-width: 50rem;
+    widows: 100%;
+}
+
+.room-info {
+    flex: 1 1 30rem;
+    min-width: 30rem;
+}
+
+.room-info ul {
+    border-left: .6rem solid  #c0c0c0;
+    padding-left: 1rem;
+    min-height: 20rem;
+}
+
+.room-info ul li {
+    margin-bottom: 1rem;
+}
+
+.room-cart {
+    flex: 1 1 30rem;
+    border: .2rem solid #808080;
+    border-radius: .5rem;
+    background-color: #f8f8f8;
+    padding: 1rem;
+    min-width: 37rem;
+    max-width: 50rem;
+}
+
+.room-cart ul li {
+    margin-top: 1rem;
+}
+
+.input-container input:first-child {
+    margin-right: 1rem;
+}
+
+.input-container input:last-child {
+    margin-top: 1rem;
+}
+
+.room-cart ul li:last-child {
+    display: flex;
+    flex-direction: column
+}
+
+.room-button {
+    padding: 1rem;
+    margin-top: 1rem;
+    border: .1rem solid #808080;
+    cursor: pointer;
+    border-radius: .5rem;
+    transition: .2s;
+}
+
+.room-button.primary {
+    background-color: #ff9900;
+}
+
+.room-button:hover {
+    border-color: #404040;
+}

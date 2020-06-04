@@ -1,0 +1,112 @@
+{
+  "users": [],
+  "rooms": [
+    {
+      "id": 1,
+      "name": "Pokój unarny",
+      "beds": 1,
+      "guests": 1,
+      "price": 200,
+      "image": "https://i.picsum.photos/id/119/600/400.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Pokój binarny",
+      "beds": 1,
+      "guests": 2,
+      "price": 240,
+      "image": "https://i.picsum.photos/id/180/600/400.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Pokój trójkowy",
+      "beds": 2,
+      "guests": 3,
+      "price": 290,
+      "image": "https://i.picsum.photos/id/20/3670/2462.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Pokój czwórkowy",
+      "beds": 2,
+      "guests": 4,
+      "price": 340,
+      "image": "https://i.picsum.photos/id/305/4928/3264.jpg"
+    }
+  ],
+  "treatments": [
+    {
+      "id": 1,
+      "name": "Masaż rozgrzanym monitorem",
+      "area": "back",
+      "time": 30,
+      "price": 80,
+      "image": "https://i.picsum.photos/id/312/600/400.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Biczowanie kablem od myszy",
+      "area": "back",
+      "time": 20,
+      "price": 70,
+      "image": "https://i.picsum.photos/id/491/600/400.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Peeling odłamkami płyty CD",
+      "area": "face",
+      "time": 15,
+      "price": 50,
+      "image": "https://i.picsum.photos/id/360/600/400.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Pedicure woskiem z USB",
+      "area": "legs",
+      "time": 25,
+      "price": 100,
+      "image": "https://i.picsum.photos/id/31/600/400.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Manicure analogowo-cyfrowy",
+      "area": "hands",
+      "time": 45,
+      "price": 150,
+      "image": "https://i.picsum.photos/id/326/600/400.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Kąpiel w gorącej kawie",
+      "area": "body",
+      "time": 60,
+      "price": 200,
+      "image": "https://i.picsum.photos/id/63/600/400.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Depilacja dyskiem twardym",
+      "area": "body",
+      "time": 45,
+      "price": 120,
+      "image": "https://i.picsum.photos/id/365/600/400.jpg"
+    }
+  ],
+  "headerList": [
+    {
+      "id": 1,
+      "image": "https://i.picsum.photos/id/1084/1920/1080.jpg",
+      "text": "Chcesz poleżeć jak one ?"
+    },
+    {
+      "id": 2,
+      "image": "https://i.picsum.photos/id/113/1920/1080.jpg",
+      "text": "Masz ochotę na gorący napar ?"
+    },
+    {
+      "id": 3,
+      "image": "https://i.picsum.photos/id/653/1920/1080.jpg",
+      "text": "Chcesz poczuć Słońce jak tu ?"
+    }
+  ]
+}

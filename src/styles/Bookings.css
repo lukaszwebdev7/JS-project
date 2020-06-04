@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.cart {
+    display: flex;
+    justify-content: center;
+}
+
+.cart-content {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+    border: .2rem solid #ccc;
+    border-radius: .5rem;
+}
+
+.cart-content-r, .cart-content-t {
+    flex: 1 1 15rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 1rem 5rem;
+}
+
+.cart-content-t div:nth-child(2) {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+}
+
+
+.item-amount {
+margin-bottom: 0;
+}
+
+.cart-content-r div img, .cart-content-t div img{
+    width: 10rem;
+    height: 10rem;
+    margin-right: 3rem;
+  }
+
+.cart-content-r div h4, .cart-content-t div h4 {
+    font-size: 2rem;
+    text-transform: capitalize;
+    letter-spacing: .1rem;
+}
+.cart-content-r div h5, .cart-content-t div h5 {
+    margin: 1rem 0;
+    letter-spacing: .1rem;
+  }
+
+.cart-content-t div:nth-child(2) {
+    margin-right: 3rem;
+}
+.item-amount {
+    text-align: center;
+  }
+.remove-item-r, .remove-item-t {
+    color: grey;
+    cursor: pointer;
+}
+
+.fa-chevron-up,
+.fa-chevron-down {
+    color: #f09d51;
+    cursor: pointer;
+}
+
+.line {
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+}
+
+.line span {
+    position: absolute;
+    width: 90%;
+    height: .1rem;
+    background-color: #ccc;
+    bottom: 0;
+}
+
+.cart-content div:last-child span {
+    height: .3rem;
+    background-color: white;
+}
+
+.total-content {
+    margin-top: 2rem;
+    letter-spacing: .1rem;
+    text-align: center;
+}
+
+.cart-total {
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+.total-content div {
+    margin-bottom: 3rem;
+}
+
+.total-content button {
+    padding: 1rem;
+    margin-top: 1rem;
+    border-style: none;
+    cursor: pointer;
+    border-radius: .5rem;
+    transition: .2s;
+    background-color: #ccccff;
+}
+
+.total-content button:last-child {
+    padding: 1.5rem 4rem;
+    color: white;
+    font-size: 2.5rem;
+    margin-top: 1rem;
+    border-style: none;
+    cursor: pointer;
+    border-radius: .5rem;
+    transition: .2s;
+    background-color: #00cc00;
+}

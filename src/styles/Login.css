@@ -1,0 +1,51 @@
+.container {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.container-login, .container-register {
+    min-width: 60rem;
+    background-color: #F1F3F7;
+    margin-bottom: 1rem;
+}
+
+.container-login h2, .container-register h2 {
+    text-align: center;
+    text-transform: uppercase;
+    margin: 3rem 0 3rem 0;
+}
+
+.container-login button, .container-register button{
+    padding: 1rem 3rem;
+    margin: 2rem 0 2rem 10rem;
+    border-style: none;
+    cursor: pointer;
+    border-radius: .5rem;
+    transition: .2s;
+    background-color: #FFE843;
+}
+
+.container-register {
+    margin-top: 10rem;
+}
+
+.form-login div, .form-password div {
+    margin-bottom: 1rem;
+}
+
+.form-login span:first-child, .form-password span:first-child {
+    display: inline-block;
+    width: 10rem;
+}
+
+.form-login span:nth-of-type(3), .form-password span:nth-of-type(3) {
+    display: inline-block;
+    width: 10rem;
+}
+
+.form-login, .form-password {
+padding-left: 2rem;
+}

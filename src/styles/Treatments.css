@@ -1,0 +1,82 @@
+.container-treatments {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.container-treatments ul, .container-treatment ul, .container-treatment ul, .treatment-cart ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.container-treatment {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 1rem;
+    margin-bottom: 3rem;
+    max-width: 180rem;
+}
+
+.treatment-image {
+    margin-right: 1rem;
+}
+.treatment-image img {
+    max-width: 50rem;
+    widows: 100%;
+}
+
+.treatment-info {
+    flex: 1 1 30rem;
+    min-width: 30rem;
+}
+
+.treatment-info ul {
+    border-left: .6rem solid  #c0c0c0;
+    padding-left: 1rem;
+    min-height: 20rem;
+}
+
+.treatment-info ul li {
+    margin-bottom: 1rem;
+}
+
+.treatment-cart {
+    flex: 1 1 30rem;
+    border: .2rem solid #808080;
+    border-radius: .5rem;
+    background-color: #f8f8f8;
+    padding: 1rem;
+    min-width: 37rem;
+    max-width: 50rem;
+}
+
+.treatment-cart ul li {
+    margin-top: 1rem;
+}
+
+.treatment-cart ul li:last-child {
+    display: flex;
+    flex-direction: column
+}
+
+.treatment-button {
+    padding: 1rem;
+    margin-top: 1rem;
+    border: .1rem solid #808080;
+    cursor: pointer;
+    border-radius: .5rem;
+    transition: .2s;
+}
+
+.treatment-button.primary {
+    background-color: #0066ff;
+    color: #ffffff;
+}
+
+.treatment-button:hover {
+    border-color: #404040;
+}
