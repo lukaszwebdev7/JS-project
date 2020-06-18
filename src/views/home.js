@@ -60,7 +60,7 @@ export const home = () => {
             divImgR.classList.add('relax-image');
             const relaxImage = document.createElement('img');
             divImgR.appendChild(relaxImage);
-            relaxImage.setAttribute('src', "https://i.picsum.photos/id/695/500/600.jpg");
+            relaxImage.setAttribute('src', "https://images.tinypic.pl/i/01008/ke7rcoddqia7.jpg");
 
             //nature
             const divNature = document.createElement('div');
@@ -71,7 +71,7 @@ export const home = () => {
             divImgN.classList.add('nature-image');
             const natureImage = document.createElement('img');
             divImgN.appendChild(natureImage);
-            natureImage.setAttribute('src', "https://i.picsum.photos/id/646/700/400.jpg");
+            natureImage.setAttribute('src', "https://images.tinypic.pl/i/01008/nkoadzhlh1e7.jpg");
 
             //motto
             const divMotto = document.createElement('div');
@@ -90,7 +90,7 @@ export const home = () => {
             divImgQ.classList.add('quotation-image');
             const quotationImage = document.createElement('img');
             divImgQ.appendChild(quotationImage);
-            quotationImage.setAttribute('src', "https://i.picsum.photos/id/64/600/400.jpg");
+            quotationImage.setAttribute('src', "https://images.tinypic.pl/i/01008/2lu7jg8e3cr4.jpg");
             const divTextQ = document.createElement('div');
             divQuotation.appendChild(divTextQ);
             const icon = document.createElement('i');

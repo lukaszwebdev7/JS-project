@@ -22,11 +22,10 @@
 }
 
 .treatment-image {
+    width: 60rem;
+    height: 40rem;
     margin-right: 1rem;
-}
-.treatment-image img {
-    max-width: 50rem;
-    widows: 100%;
+    overflow: hidden;
 }
 
 .treatment-info {

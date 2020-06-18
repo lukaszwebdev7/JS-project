@@ -1,4 +1,5 @@
 import '../styles/Bookings.css';
+const regeneratorRuntime = require("regenerator-runtime");
 const place = document.querySelector('main');
 
 class Storage {
@@ -96,11 +97,16 @@ export const bookings = () => {
                 clearButton.classList.add('clear-cart');
                 const div = document.createElement('div');
                 cartContent.appendChild(div);
+                let a = document.createElement('a');
+                div.appendChild(a);
+                a.setAttribute('href', "/login");
                 const nextButton = document.createElement('button');
-                div.appendChild(nextButton);
-                nextButton.innerText = 'Przejdź dalej';
+                a.appendChild(nextButton);
+                nextButton.innerText = 'Przejdź do logowania';
                 nextButton.classList.add('next-button');
             }
+
+
 
             let rooms = JSON.parse(localStorage.getItem('cartRooms')) !== null ? JSON.parse(localStorage.getItem('cartRooms')) : [];
             let treatments = JSON.parse(localStorage.getItem('cartTreatments')) !== null ? JSON.parse(localStorage.getItem('cartTreatments')) : [];
@@ -125,7 +131,7 @@ export const bookings = () => {
 
                 const cartContent = document.querySelector('.cart-content');
 
-                cartContent.addEventListener('click', event => {
+                cartContent.addEventListener('click', async event => {
 
                     function sum() {
                         total = rooms.concat(treatments);
@@ -169,8 +175,8 @@ export const bookings = () => {
                     else if (event.target.classList.contains('treatment-up')) {
                         let addAmount = event.target;
                         let id = addAmount.dataset.id;
-                        let tempItem = treatments.find(item => item.id === parseInt(id));
-                        tempItem.amount = tempItem.amount + 1;
+                        let tempItem = await treatments.find(item => item.id === parseInt(id));
+                        tempItem.amount = parseInt(tempItem.amount) + 1;
                         Storage.saveCartTreatments(treatments);
                         addAmount.nextElementSibling.innerText = tempItem.amount;
 

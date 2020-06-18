@@ -40,11 +40,11 @@ export const rooms = () => {
       rooms = rooms.map(room => {
         const roomUl = document.createElement('ul');
         containerRooms.appendChild(roomUl);
-        const roomImage = room.image;
+
         roomUl.innerHTML = `  <li>
                 <div class="container-room">
                   <div class="room-image">
-                    <img src=${room.image} alt="image" />
+                    <img src=${room.image} />
                   </div>
                   <div class="room-info">
                     <ul>
@@ -61,15 +61,14 @@ export const rooms = () => {
                     <ul>
                       <li><strong>Cena za dobę pobytu: ${room.price} zł</strong></li>
                       <li><label htmlFor="date">Wybierz termin pobytu:</label></li>
-                      <li class="input-container"><input id=${room.id} min=${startDate} max=${endDate} class="start" type="date" /><input id=${room.id} value="od"
-                          max=${endDate} class="end" type="date" /></li>
+                      <li class="input-container"><input id=${room.id} min=${startDate} max=${endDate} class="start" type="date" required}/><input id=${room.id} min=${startDate}
+                          max=${endDate} class="end" type="date" required/></li>
                       <li><button class='add-to-cart room-button primary' data-id=${room.id}>Dodaj do koszyka</button></li>
                     </ul>
                   </div>
                 </div>
               </li>`
       });
-
     })
     .then(() => {
 
@@ -93,6 +92,11 @@ export const rooms = () => {
 
           const firstDay = valueX.toLocaleDateString();
           const lastDay = valueY.toLocaleDateString();
+
+          if (duration < 0 || duration === 0) {
+            alert('Data wyjazdu nie może być wcześniejsza niż data przyjazdu lub ta sama, co data przyjazdu. Wybierz proszę późniejszą datę wyjazdu, aby dodać rezerwację do koszyka');
+            en.value = '';
+          }
 
           if (duration > 0) {
             let cartItem = { ...Storage.getRoom(id), amount: duration, startDate: firstDay, endDate: lastDay };

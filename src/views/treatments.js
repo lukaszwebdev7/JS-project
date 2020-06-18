@@ -71,7 +71,8 @@ export const treatments = () => {
           let cartTreatments = JSON.parse(localStorage.getItem('cartTreatments')) ? JSON.parse(localStorage.getItem('cartTreatments')) : [];
           let cartItem = { ...Storage.getTreatment(id), amount: x };
           cartTreatments = [...cartTreatments, cartItem];
-          Storage.saveCart(cartTreatments)
+          Storage.saveCart(cartTreatments);
+          alert(`Dodano do koszyka ${Storage.getTreatment(id).name}, ilość: ${x}`)
         })
       })
     })

@@ -110,7 +110,6 @@ margin-bottom: 0;
     border-style: none;
     cursor: pointer;
     border-radius: .5rem;
-    transition: .2s;
     background-color: #ccccff;
 }
 
@@ -122,6 +121,5 @@ margin-bottom: 0;
     border-style: none;
     cursor: pointer;
     border-radius: .5rem;
-    transition: .2s;
     background-color: #00cc00;
 }

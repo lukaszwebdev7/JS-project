@@ -7,7 +7,7 @@
       "beds": 1,
       "guests": 1,
       "price": 200,
-      "image": "https://i.picsum.photos/id/119/600/400.jpg"
+      "image": "https://images.tinypic.pl/i/01008/vrqzziua9eq0.jpg"
     },
     {
       "id": 2,
@@ -15,7 +15,7 @@
       "beds": 1,
       "guests": 2,
       "price": 240,
-      "image": "https://i.picsum.photos/id/180/600/400.jpg"
+      "image": "https://images.tinypic.pl/i/01008/cwgdgfytroa1.jpg"
     },
     {
       "id": 3,
@@ -23,7 +23,7 @@
       "beds": 2,
       "guests": 3,
       "price": 290,
-      "image": "https://i.picsum.photos/id/20/3670/2462.jpg"
+      "image": "https://images.tinypic.pl/i/01008/8ya4wby4ghfj.jpg"
     },
     {
       "id": 4,
@@ -31,7 +31,7 @@
       "beds": 2,
       "guests": 4,
       "price": 340,
-      "image": "https://i.picsum.photos/id/305/4928/3264.jpg"
+      "image": "https://images.tinypic.pl/i/01008/btv0bppcfpia.jpg"
     }
   ],
   "treatments": [
@@ -41,7 +41,7 @@
       "area": "back",
       "time": 30,
       "price": 80,
-      "image": "https://i.picsum.photos/id/312/600/400.jpg"
+      "image": "https://pics.tinypic.pl/i/01008/v6lri74zoxpf.jpg"
     },
     {
       "id": 2,
@@ -49,7 +49,7 @@
       "area": "back",
       "time": 20,
       "price": 70,
-      "image": "https://i.picsum.photos/id/491/600/400.jpg"
+      "image": "https://pics.tinypic.pl/i/01008/1yurhij03hkh.jpg"
     },
     {
       "id": 3,
@@ -57,7 +57,7 @@
       "area": "face",
       "time": 15,
       "price": 50,
-      "image": "https://i.picsum.photos/id/360/600/400.jpg"
+      "image": "https://pics.tinypic.pl/i/01008/kuia295fippm.jpg"
     },
     {
       "id": 4,
@@ -65,7 +65,7 @@
       "area": "legs",
       "time": 25,
       "price": 100,
-      "image": "https://i.picsum.photos/id/31/600/400.jpg"
+      "image": "https://pics.tinypic.pl/i/01008/05ta5uu3djbi.jpg"
     },
     {
       "id": 5,
@@ -73,7 +73,7 @@
       "area": "hands",
       "time": 45,
       "price": 150,
-      "image": "https://i.picsum.photos/id/326/600/400.jpg"
+      "image": "https://pics.tinypic.pl/i/01008/rmu0bezd4xek.jpg"
     },
     {
       "id": 6,
@@ -81,7 +81,7 @@
       "area": "body",
       "time": 60,
       "price": 200,
-      "image": "https://i.picsum.photos/id/63/600/400.jpg"
+      "image": "https://pics.tinypic.pl/i/01008/rmrco0gbg29n.jpg"
     },
     {
       "id": 7,
@@ -89,23 +89,23 @@
       "area": "body",
       "time": 45,
       "price": 120,
-      "image": "https://i.picsum.photos/id/365/600/400.jpg"
+      "image": "https://pics.tinypic.pl/i/01008/9tvfxgoq6xge.jpg"
     }
   ],
   "headerList": [
     {
       "id": 1,
-      "image": "https://i.picsum.photos/id/1084/1920/1080.jpg",
+      "image": "https://images.tinypic.pl/i/01008/msag8a7l6ftr.jpg",
       "text": "Chcesz poleżeć jak one ?"
     },
     {
       "id": 2,
-      "image": "https://i.picsum.photos/id/113/1920/1080.jpg",
+      "image": "https://images.tinypic.pl/i/01008/vparmu8sqs9t.jpg",
       "text": "Masz ochotę na gorący napar ?"
     },
     {
       "id": 3,
-      "image": "https://i.picsum.photos/id/653/1920/1080.jpg",
+      "image": "https://images.tinypic.pl/i/01008/7awndg3tk3up.jpg",
       "text": "Chcesz poczuć Słońce jak tu ?"
     }
   ]
